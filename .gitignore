@@ -1,0 +1,34 @@
+# 依赖
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+
+# 构建产物
+dist/
+build/
+*.egg-info/
+
+# 环境变量
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 存储目录
+storage/
+
+# 数据库
+*.db
+*.sqlite
+
+# Alembic
+alembic/versions/__pycache__/
