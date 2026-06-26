@@ -35,3 +35,27 @@
 - （写代码的话）「修复这个 bug」→「先写一个能复现 bug 的测试，再让它通过」。
 - 多步任务，先说一个简短计划，每一步对应一个验证点。
 - 成功标准给得够强，你才能自己对答案；标准太虚（比如「弄好就行」），就只能不停来问我。
+
+## 5. UI 设计技能
+
+本项目加载了以下 UI Skills，处理前端 UI 相关任务时必须参考：
+
+| 技能 | 文件 | 适用场景 |
+|------|------|---------|
+| Vue 3 最佳实践 | `.claude/skills/vue.md` | 写 Vue SFC、Composition API、响应式 |
+| 前端设计 | `.claude/skills/frontend-design.md` | 新建页面、视觉设计、排版配色 |
+| Impeccable | `.claude/skills/impeccable.md` | UI 审查、打磨、动效、无障碍、响应式 |
+
+### 使用规则
+
+1. 写 Vue 代码前，先读 `.claude/skills/vue.md`
+2. 做 UI 设计或新页面时，先读 `.claude/skills/frontend-design.md`
+3. UI 打磨、审查、优化时，先读 `.claude/skills/impeccable.md`
+4. 不要跳过技能直接写 UI 代码
+
+### DreamLink 视觉风格
+
+- 毛玻璃渐变 + 流星划过
+- 深色主题（`#0d1117` 背景）
+- 主色调 `#00a1d6`
+- 技能中的「禁止清单」同样适用（避免 AI slop）
