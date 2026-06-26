@@ -47,6 +47,16 @@ onMounted(async () => {
   padding: 24px;
 }
 
+@media (max-width: 480px) {
+  .video-view {
+    padding: 12px;
+  }
+
+  .video-info h1 {
+    font-size: 16px;
+  }
+}
+
 .player {
   width: 100%;
   border-radius: 12px;

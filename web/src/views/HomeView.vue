@@ -73,6 +73,17 @@ h2 {
   gap: 16px;
 }
 
+@media (max-width: 480px) {
+  .home {
+    padding: 16px;
+  }
+
+  .video-grid {
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 12px;
+  }
+}
+
 .video-card {
   display: block;
   overflow: hidden;

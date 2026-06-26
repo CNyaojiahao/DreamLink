@@ -76,6 +76,25 @@ onMounted(async () => {
   margin-bottom: 24px;
 }
 
+@media (max-width: 480px) {
+  .user-page {
+    padding: 16px;
+  }
+
+  .user-header {
+    flex-direction: column;
+    text-align: center;
+    padding: 16px;
+    gap: 12px;
+  }
+
+  .avatar img, .avatar-placeholder {
+    width: 64px;
+    height: 64px;
+    font-size: 24px;
+  }
+}
+
 .avatar img, .avatar-placeholder {
   width: 80px;
   height: 80px;

@@ -42,6 +42,16 @@ function handleSubmit() {
   padding: 24px;
 }
 
+@media (max-width: 480px) {
+  .upload-page {
+    padding: 16px;
+  }
+
+  .upload-form {
+    padding: 16px;
+  }
+}
+
 h2 {
   margin-bottom: 20px;
 }

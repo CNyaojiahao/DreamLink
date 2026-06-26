@@ -56,11 +56,19 @@ async function handleLogin() {
   justify-content: center;
   align-items: center;
   min-height: calc(100vh - 56px);
+  padding: 16px;
 }
 
 .auth-card {
-  width: 380px;
+  width: 100%;
+  max-width: 380px;
   padding: 32px;
+}
+
+@media (max-width: 480px) {
+  .auth-card {
+    padding: 24px;
+  }
 }
 
 h2 {

@@ -63,6 +63,17 @@ watch(() => route.query.q, search)
   padding: 24px;
 }
 
+@media (max-width: 480px) {
+  .search-page {
+    padding: 16px;
+  }
+
+  .video-grid {
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 12px;
+  }
+}
+
 .result-count {
   color: var(--text-secondary);
   font-size: 14px;

@@ -62,6 +62,14 @@ body {
   }
 }
 
+/* 减少动效 */
+@media (prefers-reduced-motion: reduce) {
+  .meteor {
+    animation: none;
+    display: none;
+  }
+}
+
 /* 按钮样式 */
 .btn {
   padding: 8px 16px;
@@ -108,4 +116,23 @@ a:hover {
 
 ::-webkit-scrollbar-thumb:hover {
   background: var(--primary-color);
+}
+
+/* 响应式工具类 */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0 12px;
+  }
 }
