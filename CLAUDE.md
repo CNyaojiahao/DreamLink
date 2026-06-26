@@ -45,13 +45,15 @@
 | Vue 3 最佳实践 | `.claude/skills/vue.md` | 写 Vue SFC、Composition API、响应式 |
 | 前端设计 | `.claude/skills/frontend-design.md` | 新建页面、视觉设计、排版配色 |
 | Impeccable | `.claude/skills/impeccable.md` | UI 审查、打磨、动效、无障碍、响应式 |
+| Animate | `.claude/skills/animate.md` | 微交互、动效设计、流星动画、hover 效果 |
 
 ### 使用规则
 
 1. 写 Vue 代码前，先读 `.claude/skills/vue.md`
 2. 做 UI 设计或新页面时，先读 `.claude/skills/frontend-design.md`
 3. UI 打磨、审查、优化时，先读 `.claude/skills/impeccable.md`
-4. 不要跳过技能直接写 UI 代码
+4. 做动效、微交互、hover 效果时，先读 `.claude/skills/animate.md`
+5. 不要跳过技能直接写 UI 代码
 
 ### DreamLink 视觉风格
 
